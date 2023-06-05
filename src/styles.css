@@ -1,3 +1,65 @@
+:root {
+  --color-body: #f2f2f2;
+  --color-blue: dodgerblue;
+}
+
+*{
+  box-sizing: border-box;
+}
+
 body {
   background-color: bisque;
+  color: var(--color-body);
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Nav bar */
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  align-items: center;
+  background: #131313;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.6rem 2rem;
+  width: 100%;
+}
+
+nav {
+  align-items: center;
+  display: flex;
+  height: 40px;
+  justify-content: space-between;
+}
+
+#page-logo {
+font-size: 2rem;
+font-weight: 700;
+}
+
+.nav-link {
+  color: var(--color-body);
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: var(--color-blue);
+}
+
+.hamburger {
+display: block;
+}
+
+.bar {
+  background: var(--color-body);
+  display: block;
+  margin: 5px auto;
+  height: 2px;
+  width: 1.5rem;
 }

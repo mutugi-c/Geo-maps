@@ -1,4 +1,3 @@
-import _ from 'lodash';
 import './styles.css';
 
 function component() {
@@ -10,4 +9,3 @@ function component() {
   return element;
 }
 
-document.body.appendChild(component());
